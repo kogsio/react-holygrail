@@ -2,7 +2,7 @@ function Footer(props){
     return (<>
         <footer> 
             <PlusMinus section="footer" handle={props.handle}/>
-            Footer
+            <div className="section">Footer:{props.data.footer}</div>
             <Display data={props.data}/> 
         </footer> 
     </>);

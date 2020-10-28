@@ -2,7 +2,7 @@ function Left(props){
     return (<>
         <aside> 
             <PlusMinus section="left" handle={props.handle}/>
-            Left
+            <div className="section">Left:{props.data.left}</div>
             <Display data={props.data}/>
         </aside>
     </>);

@@ -5,6 +5,10 @@
     gap: 5px;
     height: 90vh;
 }
+.section{
+  font-size: 2em;
+  font-weight: 800;
+}
 header, footer{
     grid-column: 1 / 4;
 }
